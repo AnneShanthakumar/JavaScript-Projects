@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="em">
+	<head>
+		<meta charset="uft-8">
+		<title>From Rosy's Kitchen</title>
+		<link rel="stylesheet" href="css/one_page_website.css">	
+	</head>
+	<body>
+<!--Nav-->
+	<ul>
+		
+				<a href="#home" id="link">Home</a>
+				<a href="#food" id="link">Food</a>
+				<a href="#video"id="link">Video</a>
+				<a href="#oder"id="link">Oder</a>
+	</ul>	
+	<!--End Nav-->
+	
+	<!--Home-->
+	<div id="home">
+		
+	<img src="images/Food1.jpeg" alt="Sri lankan food"  width=100% height="500">
+	<br><br>	
+	<h1> We make autentic home cook Sri lankan Food!</h1>
+			<p><b>Food made freshly everyday with fresh ingredients and home made spices</b></p>
+	</div>
+		
+			<!-- Video-->
+			<div id="video">
+				<h1>Must try Sri lankan Food</h1>
+
+				<p><b> To 10 Sri lankan Food Must try...</b></p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/eLWKWpt8Svc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				
+			</div>
+			<!-- End Video-->
+	
+			<!--End home-->
+			<!--Gallery-->
+	<div id="food">
+		<h1>Sri lankan Food Gallery </h1>
+		
+	
+		<div class="row">
+			<div class="column">
+					<img src="images/Food2.jpeg" alt="Sri lankan food"  width="500" height="500" onclick="openModal();currentSlide(1)" class ="hover-shadow">
+				<p>Craving Sri lankan Food? It's easy, just place an oder!!!</p>
+			</div>
+			<div class="column"> 
+				<img src="images/Food3.jpeg" alt="Sri lankan food"  width="500" height="500" onclick="openModal();currentSlide(2)" class ="hover-shadow">
+				<p>Craving Sri lankan Food? It's easy, just place an oder!!!</p>
+			</div>
+			<div class="column"> 
+				<img src="images/Food4.jpeg" alt="Sri lankan food"  width="500" height="500" onclick="openModal();currentSlide(3)" class ="hover-shadow">
+				<p>Craving Sri lankan Food? It's easy, just place an oder!!!</p>
+			</div>
+			<br>
+			<div class="column"> 
+				<img src="images/Food5.jpeg" alt="Sri lankan food"  width="500" height="500"onclick="openModal();currentSlide(4)" class ="hover-shadow">
+				<p>Craving Sri lankan Food? It's easy, just place an oder!!!</p>
+			</div>
+			<div class="column"> 
+				<img src="images/Food6.jpeg" alt="Sri lankan food"  width="500" height="500"onclick="openModal();currentSlide(5)" class ="hover-shadow">
+				<p>Craving Sri lankan Food? It's easy, just place an oder!!!</p>
+			</div>
+			<div class="column"> 
+				<img src="images/Food7.jpeg" alt="Sri lankan food"  width="500" height="500" onclick="openModal();currentSlide(6)" class ="hover-shadow">
+				<p>Craving Sri lankan Food? It's easy, just place an oder!!!</p>
+			</div>
+			
+			<hr>
+		</div>
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 6</div>
+		<img src="images/Food2.jpeg" style="width:90%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 6</div>
+		<img src="images/Food3.jpeg" style="width:90%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 6</div>
+		<img src="images/Food4.jpeg" style="width:90%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">4 / 6</div>
+		<img src="images/Food5.jpeg" style="width:90%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">5 / 6</div>
+		<img src="images/Food6.jpeg" style="width:90%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">6 / 6</div>
+		<img src="images/Food7.jpeg" style="width:90%">
+	  </div>
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  
+	  <div class="column">
+		<img class="demo" src="images/Food2.jpeg" onclick="currentSlide(1)" alt="Food1">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/Food3.jpeg" onclick="currentSlide(2)" alt="Food2">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/Food4.jpeg" onclick="currentSlide(3)" alt="Food3">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/Food5.jpeg" onclick="currentSlide(4)" alt="food4">
+	  </div>
+
+	  <div class="column">
+		<img class="demo" src="images/Food6.jpeg" onclick="currentSlide(6)" alt="food5">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/Food7.jpeg" onclick="currentSlide(7)" alt="food6">
+	  </div>
+
+	</div>
+  </div>
+		
+	</div>
+			<!--End Gallery-->
+			
+		
+			<!--Reservations And oder-->
+			
+		<div id="oder">
+			
+			<h1>Palce yor oder now..</h1>
+			
+	
+		
+		
+				<h2><span>Home cooked Sri Lankan food from Rosy's cloud Kitchen </span>
+					<br>Oder Now!</br>
+				</h2>
+			<p>
+			Please provide us your feedback or suggestions. 
+			</p>
+				<div>
+				<form action="" method="post">
+					<input type="text" name="First Name" value="First Name"><br>
+					<input type="email" name="Email"value="Email"><br>
+					<input type="phone number" name="phone number" value="phone number"><br>
+					<input type="text" name="comments"value="Comments"> <br>
+					<label class="terms">terms and conditions</label>
+				</div>
+				<div>	
+					<input type="submit" name="submit"><br>
+				
+				</div>
+				</form>
+			</div>
+		
+		
+			<!--Reservations And oder-->
+			<footer>
+			<!--Footerg-->
+			WWW.rosyskitchen.com &nbsp;|&nbsp;&copy;2023
+			<!--End Footerg-->
+			
+		</footer>
+		<script src="JS/one_page_website.js"></script>
+
+</body>
+		
+</html>
