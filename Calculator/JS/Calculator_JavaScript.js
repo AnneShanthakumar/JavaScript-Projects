@@ -86,7 +86,7 @@ function update_Display(){
 //Make use of the calculator-screen with the contents of Display_value
 //Input tag in the HTML document
 const display =document.querySelector('.calculator-screen');
-display.Value = calculator.Display_value;
+display.value = calculator.Display_value;
 }
 
 update_Display();
@@ -101,24 +101,26 @@ if(!target.matches('button')){
     return;
 }
 if(target.classList.contains('operator')){
- Handdle_Operator(target.Value);
+ Handdle_Operator(target.value);
  update_Display();
  return;   
 }
-if (target.classList.contains('operator')) {
-    Input_Decimal(target.Value);
+if (target.classList.contains('decimal')) {
+    Input_Decimal(target.value);
     update_Display()
     return
 }
 //Ensures that AC clears all inputs from the Claculator screen.
-If (target.classList.contains('all-clear')) {
+if (target.classList.contains('all-clear')) {
     calculator_reset();
     update_Display();
     return;
 }
-Input_Digit(target.Value);
+Input_Digit(target.value);
 update_Display();
 });
+
+window.alert("hi")
 
 
 
